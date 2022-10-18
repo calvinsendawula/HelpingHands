@@ -2,10 +2,11 @@
 session_start();
 require_once("../../PHP/phpMethods.php");
 
+$varName = $_POST['fullname'];
 $varEmail = $_POST['email'];
 $varPassword = $_POST['password'];
 
-$varRoleName = 'High School Student';
+$varRoleName = 'Donor';
 
 // System Admin        School Admin         Donor       Class 8 Candidate           High School Student
 
@@ -28,6 +29,7 @@ if(!empty($_POST['email'])){
       $result2 = getData($sql2);
       if(!empty($result2)){
         $varRoleID = $result2["roleID"];
+        $varRoleName = $result2["roleName"];
         //echo($varRoleName." Role ID => ".$varRoleID);
       } else{
         echo("<script>
@@ -36,7 +38,7 @@ if(!empty($_POST['email'])){
           </script>");
       }
 
-      $sql_insert2 = "INSERT INTO tbl_user(email,password,roleID) VALUES('$varEmail','$hashedPass','$varRoleID')";
+      $sql_insert2 = "INSERT INTO tbl_user(rolename,name,email,password,roleID) VALUES('$varRoleName','$varName','$varEmail','$hashedPass','$varRoleID')";
       setData($sql_insert2);
       echo("<script>
         window.location.href='../AUTH/login.php';

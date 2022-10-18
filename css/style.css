@@ -6275,7 +6275,7 @@ color: #fff;
 	width: 100%;
 	right: 0;
 	top: 0;
-	background: rgba(40, 102, 110, 1);
+	/*background: rgba(40, 102, 110, 1);*/
 	-webkit-transition: .5s ease;
 	-o-transition: .5s ease;
 	transition: .5s ease;
@@ -10974,11 +10974,11 @@ background: #000;
 
 .funfacts-section-two.style-two {
 	padding-top: 110px;
-	background: #033F63;
+	background: rgba(40, 102, 110, 1);
 }
 
 .funfacts-section-two.style-two:before {
-	background: #033F63;
+	background: rgba(40, 102, 110, 1);
 	opacity: .95;
 }
 

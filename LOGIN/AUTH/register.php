@@ -39,6 +39,7 @@
                             <a href="login.php">Login</a><a href="register.php" class="active">Register</a>
                         </div>
                         <form action="../AUTH_PHP/processRegister.php" method="post" autocomplete="off">
+                            <input class="form-control" type="text" name="fullname" placeholder="Full Names" required>
                             <input class="form-control" type="email" name="email" placeholder="e-mail Address" required>
                             <input class="form-control" type="password" name="password" placeholder="Password" required>
                             <div class="form-button">

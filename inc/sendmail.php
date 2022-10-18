@@ -1,5 +1,5 @@
 <?php
-
+/*
 require_once('phpmailer/class.phpmailer.php');
 require_once('phpmailer/class.smtp.php');
 
@@ -30,7 +30,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
         $botcheck = $_POST['form_botcheck'];
 
-        $toemail = 'calvin.sendawula@strathmore.edu'; // Your Email Address
+        $toemail = 'helpinghandsfoundationkenya@gmail.com'; // Your Email Address
         $toname = 'Calvin @ <Helping Hands>'; // Your Name
 
         if( $botcheck == '' ) {
@@ -74,4 +74,36 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 $status_array = array( 'message' => $message, 'status' => $status);
 echo json_encode($status_array);
+*/
+
+?>
+<?php
+$name = $_POST['form_name'];
+$email = $_POST['form_email'];
+$subject = $_POST['form_subject'];
+$gender = $_POST['form_gender'];
+$message = $_POST['form_message'];
+
+$to = "helpinghandsfoundationkenya@gmail.com";
+//$subject = "Email Subject";
+
+$message = 'Sent by => '.$name.',<br>';
+$message .= 'Email => '.$email.',<br>';
+$message .= 'Gender => '.$gender.',<br>';
+$message .= 'Message => '.$message.',<br>';
+//$message .= "We welcome you to be part of family<br><br>";
+//$message .= "Regards,<br>";
+
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+// More headers
+$headers .= 'From: <'.$email.'>'. "\r\n";
+$headers .= 'Subject => '.$subject. "\r\n";
+//$headers .= 'From: <enquiry@example.com>' . "\r\n";
+//$headers .= 'Cc: myboss@example.com' . "\r\n";
+
+ini_set('sendmail_from',$email);
+mail($to,$subject,$message,$headers);
 ?>

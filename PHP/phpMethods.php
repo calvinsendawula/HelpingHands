@@ -11,7 +11,7 @@ function connect(){
 	$dbpass = "";
 	$dbname = "helping_hands";
 	$dbport = dbPortInfo();
-	$link=mysqli_connect($dbserver,$dbuser,$dbpass,$dbname) or die("Could not connect".mysqli_connect_error());
+	$link=mysqli_connect($dbserver,$dbuser,$dbpass,$dbname,$dbport) or die("Could not connect".mysqli_connect_error());
 	return ($link);
 }
 
@@ -191,7 +191,7 @@ function verifyUser($varEmail, $varPassword){
 	$dbpass = "";
 	$dbname = "helping_hands";
 	$dbport = dbPortInfo();
-	$conn = new mysqli($dbserver,$dbuser,$dbpass,$dbname);
+	$conn = new mysqli($dbserver,$dbuser,$dbpass,$dbname,$dbport);
 
 	$sql="SELECT * FROM tbl_user where email = '".$varEmail."'";
 	$result= $conn->query($sql);
@@ -221,12 +221,12 @@ function verifyUser($varEmail, $varPassword){
 							if($res2['roleName'] == 'System Admin' && $res2['isDeleted'] == 0){
 								echo("<script>
 									window.location.href='../../MODULE_SYSTEM_ADMIN/systemAdminHome.php';
-									alert('Login Successful. Please enter your 2FA information');
+									alert('Login Successful. Redirecting you to your dashboard.');
 									</script>");
 							} elseif($res2['roleName'] == 'School Admin' && $res2['isDeleted'] == 0){
 								echo("<script>
 									window.location.href='../../MODULE_SCHOOL_ADMIN/schoolAdminHome.php';
-									alert('Login Successful. Please enter your 2FA information');
+									alert('Login Successful. Redirecting you to your dashboard.');
 									</script>");
 							} elseif($res2['roleName'] == 'Donor' && $res2['isDeleted'] == 0){
 								echo("<script>

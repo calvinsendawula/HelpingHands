@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Helping Hands</title>
+<title>Helping Hands Kenya</title>
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -45,267 +45,8 @@
         <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
 
-    <!-- Main Header-->
-    <header class="main-header">
-        <!-- Top bar -->
-        <div class="top-bar theme-bg">
-            <div class="auto-container">
-                <div class="wrapper-box">
-                    <div class="left-content">
-                        <div class="language-switcher">
-                            <div class="languages">
-                                <span class="current" title="English">En</span>
-                                <span class="hover">English</span>
-                                <ul>
-                                <li><a href="#">English</a></li>
-                                    <li><a href="#">Hindi</a></li>
-                                    <li><a href="#">Tamil</a></li>
-                                    <li><a href="#">Kannada</a></li>
-                                    <li><a href="#">Gujarathi</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="text">We only have what we give... <a href="#" class="donate-box-btn">Donate Now.</a></div>
-                    </div>
-                    <div class="right-content">
-                        <ul class="contact-info">
-                            <li><span class="flaticon-mail"></span><a href="mailto:support@helpinghands.com">support@helpinghands.com</a></li>
-                            <li><span class="flaticon-phone"></span><a href="tel:+254456789">+254 456 789</a></li>
-                        </ul>
-                        <ul class="social-icon-one">
-                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-skype"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Header Upper -->
-        <div class="header-upper">
-            <div class="auto-container">
-                <div class="wrapper-box">
-                    <div class="logo-column">
-                        <div class="logo-box">
-                            <div class="logo"><a href="#"><img src="images/logo.png" alt="" title=""></a></div>
-                        </div>
-                    </div>
-                    <div class="right-column">
-                        <div class="option-wrapper">
-                            <div class="nav-outer">
-
-                                <!-- Main Menu -->
-                                <nav class="main-menu navbar-expand-xl navbar-dark">
-
-                                    <div class="collapse navbar-collapse">
-                                        <ul class="navigation">
-                                            <li class="dropdown current"><a href="index.html">Home</a>
-                                                <ul>
-                                                    <li><a href="#">Home Page</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="#">Pages</a>
-                                                <ul>
-                                                    <li><a href="#">About Us</a></li>
-                                                    <li><a href="#">FAQ’s</a></li>
-                                                    <li><a href="#">Meet Our Team</a></li>
-                                                    <li class="dropdown"><a href="#">Portfolio</a>
-                                                        <ul>
-                                                            <li><a href="#">Our Portfolio</a></li>
-                                                            <!--<li><a href="portfolio-1.html">Style 01 - Grid View</a></li>
-                                                            <li><a href="portfolio-2.html">Style 02 - Grid View</a></li>
-                                                            <li><a href="portfolio-3.html">Style 01 - Masonry View</a></li>
-                                                            <li><a href="portfolio-4.html">Style 02 - Masonry View</a></li>-->
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown"><a href="#">Shop</a>
-                                                        <ul>
-                                                            <li><a href="#">Our Merchandise</a></li>
-                                                            <li><a href="#">Products Single</a></li>
-                                                            <li><a href="#">Shopping Cart</a></li>
-                                                            <li><a href="#">Checkout</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="#">Causes</a>
-                                                <ul>
-                                                    <li><a href="#">Our Causes</a></li>
-                                                    <!-- <li><a href="causes-1.html">Style 01 - Grid View</a></li>
-                                                    <li><a href="causes-2.html">Style 02 - List View</a></li>
-                                                    <li><a href="causes-3.html">Style 01 - Carousel</a></li>
-                                                    <li><a href="cause-details.html">Single Cause</a></li> -->
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="#">Events</a>
-                                                <ul>
-                                                    <li><a href="#">Events</a></li>
-                                                    <li><a href="#">Single Event</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="#">Account</a>
-                                                <ul>
-                                                    <li><a href="<?php donorDashRedirectPage(); ?>"><?php donorDashRedirectDisplay(); ?></a></li>
-                                                    <li><a href="<?php donorLogoutPage(); ?>"><?php donorLogoutDisplay(); ?></a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </nav><!-- Main Menu End-->
-                            </div>
-                            <!--Search Box-->
-                            <div class="search-box-outer">
-                                <div class="dropdown">
-                                    <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
-                                    <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
-                                        <li class="panel-outer">
-                                            <div class="form-container">
-                                                <form method="post" action="#">
-                                                    <div class="form-group">
-                                                        <input type="search" name="field-name" value="" placeholder="Search...." required="">
-                                                        <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="cart-btn">
-                                <div class="cart-icon"><span class="flaticon-comment"></span><span class="item-count">0</span></div>
-                            </div>
-                            <div class="navbar-btn-wrap">
-                                <button class="anim-menu-btn">
-                                  <i class="flaticon-menu"></i>
-                                </button>
-                            </div>
-                            <div class="link-btn">
-                                <a href="#" class="theme-btn btn-style-one"><span>Sponsor a child</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--End Header Upper-->
-
-        <!--End Header Upper-->
-        <div class="sticky-header">
-            <div class="auto-container">
-                <div class="wrapper-box">
-                    <div class="logo-column">
-                        <div class="logo-box">
-                            <div class="logo"><a href="#"><img src="images/logo.png" alt="" title=""></a></div>
-                        </div>
-                    </div>
-                    <div class="menu-column">
-                        <div class="nav-outer">
-
-                            <div class="nav-inner">
-
-                                <!-- Main Menu -->
-                                <nav class="main-menu navbar-expand-xl navbar-dark">
-
-                                    <div class="collapse navbar-collapse">
-                                        <ul class="navigation">
-                                        </ul>
-                                    </div>
-                                </nav><!-- Main Menu End-->
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu style-one">
-            <div class="menu-box">
-                <div class="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
-                <!-- Main Menu -->
-                <nav class="main-menu navbar-expand-xl navbar-dark">
-                    <div class="navbar-header">
-                        <!-- Toggle Button -->
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="flaticon-menu"></span>
-                        </button>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navigation">
-
-                        </ul>
-                    </div>
-                </nav>
-                <!-- Main Menu End-->
-                <!--Search Box-->
-                <div class="search-box-outer">
-                    <div class="dropdown">
-                        <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
-                        <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu4">
-                            <li class="panel-outer">
-                                <div class="form-container">
-                                    <form method="post" action="#">
-                                        <div class="form-group">
-                                            <input type="search" name="field-name" value="" placeholder="Search...." required="">
-                                            <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- End Mobile Menu -->
-
-        <div class="nav-overlay">
-            <div class="cursor"></div>
-            <div class="cursor-follower"></div>
-        </div>
-    </header>
-    <!-- End Main Header -->
-
-    <!-- Hidden Sidebar -->
-    <section class="hidden-sidebar close-sidebar">
-        <div class="wrapper-box">
-            <div class="hidden-sidebar-close"><span class="flaticon-cross"></span></div>
-            <div class="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
-            <div class="content">
-                <div class="about-widget-four sidebar-widget">
-                    <h3>To improve the transition process from primary schools</h3>
-                    <!-- <div class="text">We denounce with righteous indignation and dislike men who we are to beguiled demoralized by the charms of pleasures that moment, so we blinded desires, that they indignations.</div> -->
-                </div>
-                <!-- News Widget -->
-                <div class="news-widget-two sidebar-widget">
-                    <div class="widget-title">News & Updates</div>
-                    <div class="post-wrapper">
-                        <div class="image"><a href="#"><img src="images/resource/post-thumb-1.jpg" alt=""></a></div>
-                        <div class="category">High School</div>
-                        <h4><a href="#">Helping Hands partners with many high schools</a></h4>
-                    </div>
-                    <div class="post-wrapper">
-                        <div class="image"><a href="#"><img src="images/resource/post-thumb-2.jpg" alt=""></a></div>
-                        <div class="category">Education</div>
-                        <h4><a href="#">Helping Hands improves education infrastructure</a></h4>
-                    </div>
-                </div>
-                <!-- Newsletter Widget -->
-                <div class="newsletter-widget-two">
-                    <div class="widget-title">Newsletter Subscription</div>
-                    <form action="#">
-                        <input type="email" placeholder="Enter Email Address">
-                        <button class="theme-btn btn-style-one w-100"><i class="flaticon-next"></i><span>Subscribe Us</span></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include("htmlTemplates/header.php"); ?>
+    <?php include("htmlTemplates/hiddenSidebar.php"); ?>
 
     <!-- Bnner Section -->
     <section class="banner-section">
@@ -315,11 +56,11 @@
                 <div class="swiper-slide" style="background-image: url(images/main-slider/1.jpg);">
                     <div class="content-outer">
                         <div class="content-box justify-content-center">
-                            <div class="inner text-center">
-                                <h4><span class="border-shape-left"></span>Heping Hands Foundation<span class="border-shape-right"></span></h4>
-                                <h1>Sponsor a child</h1>
-                                <div class="text">How can I help support a child to join high school?<br>Start here.</div>
-                                <div class="link-box"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                            <div class="inner text-center" style="background-color: rgba(0,0,0,0.6); border-radius: 10px; padding: 30px 20px;">
+                              <h4><span class="border-shape-left"></span>Helping Hands Foundation<span class="border-shape-right"></span></h4>
+                              <h1>Sponsor a child</h1>
+                              <div class="text">How can I help support a child to join high school? </br> Start here.</div>
+                              <div class="link-box"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -329,10 +70,11 @@
                 <div class="swiper-slide" style="background-image: url(images/main-slider/2.jpg);">
                     <div class="content-outer">
                         <div class="content-box justify-content-center">
-                            <div class="inner text-center">
+                            <div class="inner text-center" style="background-color: rgba(0,0,0,0.6); border-radius: 10px; padding: 30px 20px;">
                                 <!-- <div class="link-box-two"><a href="#" class="theme-btn default-btn">help the needy</a></div> -->
-                                <h3>To improve learning environment in primary schools</h3>
+                                <h4><span class="border-shape-left"></span>Improving lives of Kenyan primary school students<span class="border-shape-right"></span></h4>
                                 <h1>Together we can make <br>a Difference</h1>
+                                <div class="text">Making a change one donation at a time. </br> Get started.</div>
                                 <div class="link-box"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                             </div>
                         </div>
@@ -343,9 +85,11 @@
                 <div class="swiper-slide" style="background-image: url(images/main-slider/3.jpg);">
                     <div class="content-outer">
                         <div class="content-box justify-content-center">
-                            <div class="inner text-center">
+                            <div class="inner text-center" style="background-color: rgba(0,0,0,0.6); border-radius: 10px; padding: 30px 20px;">
+                            <h4><span class="border-shape-left"></span>Keep the dice rolling<span class="border-shape-right"></span></h4>
                                 <h1>Keep a child in High School</h1>
                                 <!-- <div class="text">To improve the learning environment in primary schools by <br>holistically creating world-class.</div> -->
+                                <div class="text">Be the change you want to see today.</br> Click the button below</div>
                                 <div class="link-box"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                             </div>
                         </div>
@@ -367,7 +111,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="about-content-block">
-                        <h1>Be part of a change <br>you want to see in the world</h1>
+                        <h1>Be part of a change <br>you want to see in Kenya</h1>
                         <h4>“Generosity consists not of the sum given, but the manner in <br>which it is bestowed.”</h4>
                         <div class="text wow fadeInUp" data-wow-delay="200ms">Driven by the high entry costs of joining high school, <br>we at helping hands are helping change the education <br>situation in Kenya.</div>
                         <div class="row">
@@ -381,7 +125,7 @@
                             </div>
                         </div>
                         <div class="link-btn-two">
-                            <a href="#" class="theme-btn btn-style-one"><span>More About Us</span></a>
+                            <a href="about.php" class="theme-btn btn-style-one"><span>More About Us</span></a>
                         </div>
                     </div>
                 </div>
@@ -389,7 +133,7 @@
                     <div class="about-image-block">
                         <div class="logo-box"><div class="image wow zoomIn" data-wow-delay="500ms"><img src="images/resource/logo-icon.png" alt=""></div></div>
                         <div class="image-one wow fadeInUp" data-wow-delay="200ms"><img src="images/resource/image-1.jpg" alt=""></div>
-                        <div class="image-two"><img src="images/resource/image-2.jpg" alt=""><a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link lightbox-image video-fancybox"><span class="flaticon-multimedia"></span></a></div>
+                        <div class="image-two" style="border: 5px solid #fff; border-radius: 5px;"><img src="images/resource/image-2.jpg" alt=""><a href="https://youtu.be/Uf1aiRYSzsw" title="Courtesy of PACEmaker International - YouTube" class="overlay-link lightbox-image video-fancybox"><span class="flaticon-multimedia"></span></a></div>
                         <div class="image-three wow fadeInRight" data-wow-delay="200ms"><img src="images/resource/image-3.jpg" alt=""></div>
                     </div>
                 </div>
@@ -398,6 +142,27 @@
     </section>
 
     <!-- Causes Section -->
+    <?php
+    $sql="SELECT * FROM tbl_cause";
+    $causeResult = getDataRows($sql);
+    $causeTitleArr = array();
+    $causeSchoolNameArr = array();
+    $causeDetailsArr = array();
+    $causeAmountRaisedArr = array();
+    $causeTargetAmountArr = array();
+    $causePercentageArr = array();
+    if(!empty($causeResult)){
+      foreach($causeResult as $cause){
+        $varCausePercent = ($cause["amountRaised"]/$cause["targetAmount"])*100;
+        array_push($causeTitleArr, $cause["causeTitle"]);
+        array_push($causeSchoolNameArr, $cause["schoolName"]);
+        array_push($causeDetailsArr, $cause["causeDetails"]);
+        array_push($causeAmountRaisedArr, $cause["amountRaised"]);
+        array_push($causeTargetAmountArr, $cause["targetAmount"]);
+        array_push($causePercentageArr, $varCausePercent);
+      }
+    }
+    ?>
     <section class="causes-section">
         <div class="auto-container">
             <div class="sec-title text-center">
@@ -409,14 +174,14 @@
                     <!-- Cause Block One -->
                     <div class="cause-block-one">
                         <div class="inner-box">
-                            <div class="image"><a href="cause-details.html"><img src="images/resource/cause-1.jpg" alt=""></a></div>
+                          <div class="image"><a href="#"><img src="images/resource/cause-1.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4><a href="#">Help Kenyan children</a></h4>
-                                <div class="category"><a href="#"><span class="flaticon-book"></span>Education</a></div>
-                                <div class="text">Help Madaraka Primary School today.</div>
+                                <h4><a href="causes.php"><?php echo($causeTitleArr[0]); ?></a></h4>
+                                <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[0]); ?></a></div>
+                                <div class="text"><?php echo($causeDetailsArr[0]); ?></div>
                                 <div class="info-box">
-                                    <a href="#"><span>Raised:</span> Kshs.72000</a>
-                                    <a href="#"><span>Goal:</span> Kshs.100000</a>
+                                    <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[0]); ?></a>
+                                    <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[0]); ?></a>
                                 </div>
                                 <!--Progress Levels-->
                                 <div class="progress-levels">
@@ -425,14 +190,14 @@
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
                                             <div class="bar">
-                                                <div class="bar-innner"><div class="bar-fill" data-percent="60"><div class="percent"></div></div></div>
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[0]); ?>"><div class="percent"></div></div></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text">Raised by 84 people in 12 days</div>
+                                <!--<div class="text">Raised by 84 people in 12 days</div>-->
                                 <div class="bottom-content">
-                                    <div class="link-btn"><a href="cause-details.html" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="link-btn"><a href="causes.php" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                                     <div class="share-icon post-share-icon">
                                         <div class="share-btn"><i class="flaticon-share"></i></div>
                                         <ul>
@@ -447,30 +212,29 @@
                     <!-- Cause Block One -->
                     <div class="cause-block-one">
                         <div class="inner-box">
-                            <div class="image"><a href="cause-details.html"><img src="images/resource/cause-2.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4><a href="cause-details.html">Help sponsor students</a></h4>
-                                <div class="category"><a href="#"><span class="flaticon-book"></span>High School Fees</a></div>
-                                <div class="text">Difference, one donation at a time</div>
-                                <div class="info-box">
-                                    <a href="#"><span>Raised:</span> Kshs.40000</a>
-                                    <a href="#"><span>Goal:</span> Kshs.80000</a>
+                              <h4><a href="causes.php"><?php echo($causeTitleArr[1]); ?></a></h4>
+                              <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[1]); ?></a></div>
+                              <div class="text"><?php echo($causeDetailsArr[1]); ?></div>
+                              <div class="info-box">
+                                  <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[1]); ?></a>
+                                  <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[1]); ?></a>
                                 </div>
                                 <!--Progress Levels-->
                                 <div class="progress-levels">
-
                                     <!--Skill Box-->
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
                                             <div class="bar">
-                                                <div class="bar-innner"><div class="bar-fill" data-percent="60"><div class="percent"></div></div></div>
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[1]); ?>"><div class="percent"></div></div></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text">Raised by 36 people in 08 days</div>
+                                <!--<div class="text">Raised by 36 people in 08 days</div>-->
                                 <div class="bottom-content">
-                                    <div class="link-btn"><a href="cause-details.html" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                                     <div class="share-icon post-share-icon">
                                         <div class="share-btn"><i class="flaticon-share"></i></div>
                                         <ul>
@@ -485,14 +249,14 @@
                     <!-- Cause Block One -->
                     <div class="cause-block-one">
                         <div class="inner-box">
-                            <div class="image"><a href="cause-details.html"><img src="images/resource/cause-1.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4><a href="cause-details.html">Donation for Dan Njoroge</a></h4>
-                                <div class="category"><a href="#"><span class="flaticon-book"></span>Nanyuki High School</a></div>
-                                <div class="text">Help Dan stay in high school.</div>
-                                <div class="info-box">
-                                    <a href="#"><span>Raised:</span> Kshs.32000</a>
-                                    <a href="#"><span>Goal:</span> Kshs.45000</a>
+                              <h4><a href="causes.php"><?php echo($causeTitleArr[2]); ?></a></h4>
+                              <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[2]); ?></a></div>
+                              <div class="text"><?php echo($causeDetailsArr[2]); ?></div>
+                              <div class="info-box">
+                                  <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[2]); ?></a>
+                                  <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[2]); ?></a>
                                 </div>
                                 <!--Progress Levels-->
                                 <div class="progress-levels">
@@ -501,14 +265,14 @@
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
                                             <div class="bar">
-                                                <div class="bar-innner"><div class="bar-fill" data-percent="60"><div class="percent"></div></div></div>
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[2]); ?>"><div class="percent"></div></div></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text">Raised by 56 people in 15 days</div>
+                                <!--<div class="text">Raised by 56 people in 15 days</div>-->
                                 <div class="bottom-content">
-                                    <div class="link-btn"><a href="cause-details.html" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                                     <div class="share-icon post-share-icon">
                                         <div class="share-btn"><i class="flaticon-share"></i></div>
                                         <ul>
@@ -523,14 +287,14 @@
                     <!-- Cause Block One -->
                     <div class="cause-block-one">
                         <div class="inner-box">
-                            <div class="image"><a href="cause-details.html"><img src="images/resource/cause-1.jpg" alt=""></a></div>
+                          <div class="image"><a href="#"><img src="images/resource/cause-1.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4><a href="cause-details.html">Help Kenyan children</a></h4>
-                                <div class="category"><a href="#"><span class="flaticon-book"></span>Education</a></div>
-                                <div class="text">Help Madaraka Primary School today.</div>
+                                <h4><a href="causes.php"><?php echo($causeTitleArr[0]); ?></a></h4>
+                                <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[0]); ?></a></div>
+                                <div class="text"><?php echo($causeDetailsArr[0]); ?></div>
                                 <div class="info-box">
-                                    <a href="#"><span>Raised:</span> Kshs.72000</a>
-                                    <a href="#"><span>Goal:</span> Kshs.100000</a>
+                                    <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[0]); ?></a>
+                                    <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[0]); ?></a>
                                 </div>
                                 <!--Progress Levels-->
                                 <div class="progress-levels">
@@ -539,14 +303,14 @@
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
                                             <div class="bar">
-                                                <div class="bar-innner"><div class="bar-fill" data-percent="60"><div class="percent"></div></div></div>
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[0]); ?>"><div class="percent"></div></div></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text">Raised by 84 people in 12 days</div>
+                                <!--<div class="text">Raised by 84 people in 12 days</div>-->
                                 <div class="bottom-content">
-                                    <div class="link-btn"><a href="cause-details.html" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="link-btn"><a href="causes.php" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                                     <div class="share-icon post-share-icon">
                                         <div class="share-btn"><i class="flaticon-share"></i></div>
                                         <ul>
@@ -561,30 +325,29 @@
                     <!-- Cause Block One -->
                     <div class="cause-block-one">
                         <div class="inner-box">
-                            <div class="image"><a href="cause-details.html"><img src="images/resource/cause-2.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4><a href="cause-details.html">Help sponsor students</a></h4>
-                                <div class="category"><a href="#"><span class="flaticon-book"></span>High School Fees</a></div>
-                                <div class="text">Difference, one donation at a time</div>
-                                <div class="info-box">
-                                    <a href="#"><span>Raised:</span> Kshs.40000</a>
-                                    <a href="#"><span>Goal:</span> Kshs.80000</a>
+                              <h4><a href="causes.php"><?php echo($causeTitleArr[1]); ?></a></h4>
+                              <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[1]); ?></a></div>
+                              <div class="text"><?php echo($causeDetailsArr[1]); ?></div>
+                              <div class="info-box">
+                                  <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[1]); ?></a>
+                                  <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[1]); ?></a>
                                 </div>
                                 <!--Progress Levels-->
                                 <div class="progress-levels">
-
                                     <!--Skill Box-->
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
                                             <div class="bar">
-                                                <div class="bar-innner"><div class="bar-fill" data-percent="60"><div class="percent"></div></div></div>
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[1]); ?>"><div class="percent"></div></div></div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>#
                                 </div>
-                                <div class="text">Raised by 36 people in 08 days</div>
+                                <!--<div class="text">Raised by 36 people in 08 days</div>-->
                                 <div class="bottom-content">
-                                    <div class="link-btn"><a href="cause-details.html" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                                     <div class="share-icon post-share-icon">
                                         <div class="share-btn"><i class="flaticon-share"></i></div>
                                         <ul>
@@ -599,14 +362,14 @@
                     <!-- Cause Block One -->
                     <div class="cause-block-one">
                         <div class="inner-box">
-                            <div class="image"><a href="cause-details.html"><img src="images/resource/cause-1.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4><a href="cause-details.html">Donation for Dan Njoroge</a></h4>
-                                <div class="category"><a href="#"><span class="flaticon-book"></span>Nanyuki High School</a></div>
-                                <div class="text">Help Dan stay in high school.</div>
-                                <div class="info-box">
-                                    <a href="#"><span>Raised:</span> Kshs.32000</a>
-                                    <a href="#"><span>Goal:</span> Kshs.45000</a>
+                              <h4><a href="causes.php"><?php echo($causeTitleArr[2]); ?></a></h4>
+                              <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[2]); ?></a></div>
+                              <div class="text"><?php echo($causeDetailsArr[2]); ?></div>
+                              <div class="info-box">
+                                  <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[2]); ?></a>
+                                  <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[2]); ?></a>
                                 </div>
                                 <!--Progress Levels-->
                                 <div class="progress-levels">
@@ -615,14 +378,127 @@
                                     <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                         <div class="inner">
                                             <div class="bar">
-                                                <div class="bar-innner"><div class="bar-fill" data-percent="60"><div class="percent"></div></div></div>
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[2]); ?>"><div class="percent"></div></div></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text">Raised by 56 people in 15 days</div>
+                                <!--<div class="text">Raised by 56 people in 15 days</div>-->
                                 <div class="bottom-content">
-                                    <div class="link-btn"><a href="cause-details.html" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="share-icon post-share-icon">
+                                        <div class="share-btn"><i class="flaticon-share"></i></div>
+                                        <ul>
+                                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cause Block One -->
+                    <div class="cause-block-one">
+                        <div class="inner-box">
+                          <div class="image"><a href="#"><img src="images/resource/cause-1.jpg" alt=""></a></div>
+                            <div class="lower-content">
+                                <h4><a href="causes.php"><?php echo($causeTitleArr[0]); ?></a></h4>
+                                <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[0]); ?></a></div>
+                                <div class="text"><?php echo($causeDetailsArr[0]); ?></div>
+                                <div class="info-box">
+                                    <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[0]); ?></a>
+                                    <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[0]); ?></a>
+                                </div>
+                                <!--Progress Levels-->
+                                <div class="progress-levels">
+
+                                    <!--Skill Box-->
+                                    <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                        <div class="inner">
+                                            <div class="bar">
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[0]); ?>"><div class="percent"></div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--<div class="text">Raised by 84 people in 12 days</div>-->
+                                <div class="bottom-content">
+                                    <div class="link-btn"><a href="causes.php" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="share-icon post-share-icon">
+                                        <div class="share-btn"><i class="flaticon-share"></i></div>
+                                        <ul>
+                                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cause Block One -->
+                    <div class="cause-block-one">
+                        <div class="inner-box">
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
+                            <div class="lower-content">
+                              <h4><a href="causes.php"><?php echo($causeTitleArr[1]); ?></a></h4>
+                              <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[1]); ?></a></div>
+                              <div class="text"><?php echo($causeDetailsArr[1]); ?></div>
+                              <div class="info-box">
+                                  <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[1]); ?></a>
+                                  <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[1]); ?></a>
+                                </div>
+                                <!--Progress Levels-->
+                                <div class="progress-levels">
+                                    <!--Skill Box-->
+                                    <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                        <div class="inner">
+                                            <div class="bar">
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[1]); ?>"><div class="percent"></div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--<div class="text">Raised by 36 people in 08 days</div>-->
+                                <div class="bottom-content">
+                                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
+                                    <div class="share-icon post-share-icon">
+                                        <div class="share-btn"><i class="flaticon-share"></i></div>
+                                        <ul>
+                                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cause Block One -->
+                    <div class="cause-block-one">
+                        <div class="inner-box">
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
+                            <div class="lower-content">
+                              <h4><a href="causes.php"><?php echo($causeTitleArr[2]); ?></a></h4>
+                              <div class="category"><a href="#"><span class="flaticon-book"></span><?php echo($causeSchoolNameArr[2]); ?></a></div>
+                              <div class="text"><?php echo($causeDetailsArr[2]); ?></div>
+                              <div class="info-box">
+                                  <a href="#"><span>Raised:</span> Kshs.<?php echo($causeAmountRaisedArr[2]); ?></a>
+                                  <a href="#"><span>Goal:</span> Kshs.<?php echo($causeTargetAmountArr[2]); ?></a>
+                                </div>
+                                <!--Progress Levels-->
+                                <div class="progress-levels">
+
+                                    <!--Skill Box-->
+                                    <div class="progress-box wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                        <div class="inner">
+                                            <div class="bar">
+                                                <div class="bar-innner"><div class="bar-fill" data-percent="<?php echo($causePercentageArr[2]); ?>"><div class="percent"></div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--<div class="text">Raised by 56 people in 15 days</div>-->
+                                <div class="bottom-content">
+                                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one donate-box-btn"><span>Donate Now</span></a></div>
                                     <div class="share-icon post-share-icon">
                                         <div class="share-btn"><i class="flaticon-share"></i></div>
                                         <ul>
@@ -640,6 +516,24 @@
     </section>
 
     <!-- Donor Section -->
+    <?php
+    $sql2="SELECT * FROM tbl_donor";
+    $donorResult = getDataRows($sql2);
+    $donorNameArr = array();
+    $donorEmailArr = array();
+    $donorPhoneArr = array();
+    $donorLocationArr = array();
+    $donorTotalArr = array();
+    if(!empty($donorResult)){
+      foreach($donorResult as $donor){
+        array_push($donorNameArr, $donor["donorName"]);
+        array_push($donorEmailArr, $donor["donorEmail"]);
+        array_push($donorPhoneArr, $donor["donorPhone"]);
+        array_push($donorLocationArr, $donor["donorLocation"]);
+        array_push($donorTotalArr, $donor["total"]);
+      }
+    }
+    ?>
     <section class="donor-section" style="background-image: url(images/background/bg-1.jpg);">
         <div class="auto-container">
             <div class="row">
@@ -658,12 +552,12 @@
                                             <div class="icon"><a href="#"><span class="fa fa-twitter"></span></a></div>
                                         </div>
                                     </div>
-                                    <h4>Leon Wafula</h4>
-                                    <div class="location">Rongai</div>
+                                    <h4><?php echo($donorNameArr[0]); ?></h4>
+                                    <div class="location"><?php echo($donorLocationArr[0]); ?></div>
                                 </div>
                                 <div class="bottom-content">
                                     <div class="text">Donation</div>
-                                    <div class="price">Kshs.2500</div>
+                                    <div class="price">Kshs.<?php echo($donorTotalArr[0]); ?></div>
                                 </div>
                             </div>
                         </div>
@@ -676,12 +570,12 @@
                                             <div class="icon"><a href="#"><span class="fa fa-twitter"></span></a></div>
                                         </div>
                                     </div>
-                                    <h4>Alvina Kyalo</h4>
-                                    <div class="location">Karen</div>
+                                    <h4><?php echo($donorNameArr[1]); ?></h4>
+                                    <div class="location"><?php echo($donorLocationArr[1]); ?></div>
                                 </div>
                                 <div class="bottom-content">
                                     <div class="text">Donation</div>
-                                    <div class="price">Kshs.30000</div>
+                                    <div class="price">Kshs.<?php echo($donorTotalArr[1]); ?></div>
                                 </div>
                             </div>
                         </div>
@@ -694,12 +588,12 @@
                                             <div class="icon"><a href="#"><span class="fa fa-twitter"></span></a></div>
                                         </div>
                                     </div>
-                                    <h4>John Omondi</h4>
-                                    <div class="location">Ruaka</div>
+                                    <h4><?php echo($donorNameArr[2]); ?></h4>
+                                    <div class="location"><?php echo($donorLocationArr[2]); ?></div>
                                 </div>
                                 <div class="bottom-content">
                                     <div class="text">Donation</div>
-                                    <div class="price">Kshs.5000</div>
+                                    <div class="price">Kshs.<?php echo($donorTotalArr[2]); ?></div>
                                 </div>
                             </div>
                         </div>
@@ -736,11 +630,11 @@
                     <div class="col-lg-4 counter-block wow fadeInUp" data-wow-delay="300ms">
                         <div class="inner-box">
                             <div class="icon-box"><img src="images/icons/icon-3.png" alt=""></div>
-                            <h4>Beneficiaries</h4>
+                            <h4>Raised</h4>
                             <div class="count-box">
                                 <span class="prefix">Kshs.</span><span class="count-text" data-speed="3000" data-stop="144">0</span><span class="affix">K</span>
                             </div>
-                            <div class="text">Help raise the number of direct beneficiaries of our <br>foundation programme.</div>
+                            <div class="text">Help raise the number of children that get</br>to benefit from our platform.</div>
                         </div>
                     </div>
                     <!--Column-->
@@ -751,7 +645,7 @@
                             <div class="count-box">
                                 <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="67">0</span><span class="affix">+</span>
                             </div>
-                            <div class="text">458+ people donate our charity to with <br>100% happy heart.</div>
+                            <div class="text">67+ people donate to our platform and <br>help keep children in school.</div>
                         </div>
                     </div>
                     <!--Column-->
@@ -760,7 +654,7 @@
                             <div class="icon-box"><img src="images/icons/icon-5.png" alt=""></div>
                             <h4>Beneficiaries</h4>
                             <div class="count-box">
-                                <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="23">0</span><span class="affix"></span>
+                                <span class="prefix"></span><span class="count-text" data-speed="3000" data-stop="17">0</span><span class="affix"></span>
                             </div>
                             <div class="text">Our work would not be possible without <br>our dedicated donors.</div>
                         </div>
@@ -775,6 +669,26 @@
     </section>
 
     <!--Events Section-->
+    <?php
+    $sql3="SELECT * FROM tbl_event";
+    $eventResult = getDataRows($sql3);
+    $eventDateArr = array();
+    $eventMonthArr = array();
+    $eventStartTimeArr = array();
+    $eventEndTimeArr = array();
+    $eventDescriptionArr = array();
+    $eventLocationArr = array();
+    if(!empty($eventResult)){
+      foreach($eventResult as $event){
+        array_push($eventDateArr, $event["eventDate"]);
+        array_push($eventMonthArr, $event["eventMonth"]);
+        array_push($eventStartTimeArr, $event["eventStartTime"]);
+        array_push($eventEndTimeArr, $event["eventEndTime"]);
+        array_push($eventDescriptionArr, $event["eventDescription"]);
+        array_push($eventLocationArr, $event["eventLocation"]);
+      }
+    }
+    ?>
     <section class="events-section">
 
         <!--Event Tabs-->
@@ -805,13 +719,13 @@
                                         <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>25</h1>
-                                                <div class="text"><span>August</span> <br>09.00am  - 03.00pm</div>
+                                                <h1><?php echo($eventDateArr[0]); ?></h1>
+                                                <div class="text"><span><?php echo($eventMonthArr[0]); ?></span> <br><?php echo($eventStartTimeArr[0]); ?>  - <?php echo($eventEndTimeArr[0]); ?></div>
                                             </div>
-                                            <h4><a href="event-details.html">Donation drive dedicated to <br>school clothing</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>24, Kimathi Avenue</div>
+                                            <h4><a href="event-details.html"><?php echo($eventDescriptionArr[0]); ?></a></h4>
+                                            <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[0]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href=""><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href=""><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                                 <!-- Event Blokc One -->
@@ -820,13 +734,13 @@
                                         <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>16</h1>
-                                                <div class="text"><span>October</span> <br>10.00am  - 05.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">100% primary to secondary school transition goal</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>213, Moi Avenue</div>
+                                              <h1><?php echo($eventDateArr[1]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[1]); ?></span> <br><?php echo($eventStartTimeArr[1]); ?>  - <?php echo($eventEndTimeArr[1]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[1]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[1]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                                 <!-- Event Blokc One -->
@@ -835,13 +749,13 @@
                                         <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>27</h1>
-                                                <div class="text"><span>December</span> <br>09.00am  - 03.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Madaraka Primary School <br>sports day obstacle race</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>5404, Keri Road</div>
+                                              <h1><?php echo($eventDateArr[2]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[2]); ?></span> <br><?php echo($eventStartTimeArr[2]); ?>  - <?php echo($eventEndTimeArr[2]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[2]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[2]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                                 <!-- Event Blokc One -->
@@ -850,13 +764,13 @@
                                         <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>25</h1>
-                                                <div class="text"><span>August</span> <br>09.00am  - 03.00pm</div>
+                                                <h1><?php echo($eventDateArr[0]); ?></h1>
+                                                <div class="text"><span><?php echo($eventMonthArr[0]); ?></span> <br><?php echo($eventStartTimeArr[0]); ?>  - <?php echo($eventEndTimeArr[0]); ?></div>
                                             </div>
-                                            <h4><a href="event-details.html">Donation drive dedicated to <br>school clothing</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>24, Kimathi Avenue</div>
+                                            <h4><a href="event-details.html"><?php echo($eventDescriptionArr[0]); ?></a></h4>
+                                            <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[0]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href=""><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                                 <!-- Event Blokc One -->
@@ -865,13 +779,13 @@
                                         <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>16</h1>
-                                                <div class="text"><span>October</span> <br>10.00am  - 12.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">100% primary to secondary school transition goal</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>213, Moi Avenue</div>
+                                              <h1><?php echo($eventDateArr[1]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[1]); ?></span> <br><?php echo($eventStartTimeArr[1]); ?>  - <?php echo($eventEndTimeArr[1]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[1]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[1]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                                 <!-- Event Blokc One -->
@@ -880,13 +794,13 @@
                                         <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>27</h1>
-                                                <div class="text"><span>December</span> <br>10.00am  - 05.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Madaraka Primary School <br>sports day obstacle race</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>5404, Keri Road</div>
+                                              <h1><?php echo($eventDateArr[2]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[2]); ?></span> <br><?php echo($eventStartTimeArr[2]); ?>  - <?php echo($eventEndTimeArr[2]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[2]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[2]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                                 <!-- Event Blokc One -->
@@ -895,13 +809,13 @@
                                         <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>25</h1>
-                                                <div class="text"><span>August</span> <br>09.00am  - 03.00pm</div>
+                                                <h1><?php echo($eventDateArr[0]); ?></h1>
+                                                <div class="text"><span><?php echo($eventMonthArr[0]); ?></span> <br><?php echo($eventStartTimeArr[0]); ?>  - <?php echo($eventEndTimeArr[0]); ?></div>
                                             </div>
-                                            <h4><a href="event-details.html">Donation drive dedicated to <br>school clothing</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>24, Kimathi Avenue</div>
+                                            <h4><a href="event-details.html"><?php echo($eventDescriptionArr[0]); ?></a></h4>
+                                            <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[0]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href=""><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                                 <!-- Event Blokc One -->
@@ -910,13 +824,13 @@
                                         <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>16</h1>
-                                                <div class="text"><span>October</span> <br>10.00am  - 12.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">100% primary to secondary school transition goal</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>213, Moi Avenue</div>
+                                              <h1><?php echo($eventDateArr[1]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[1]); ?></span> <br><?php echo($eventStartTimeArr[1]); ?>  - <?php echo($eventEndTimeArr[1]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[1]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[1]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                                 <!-- Event Blokc One -->
@@ -925,13 +839,13 @@
                                         <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
                                         <div class="lower-content">
                                             <div class="date">
-                                                <h1>27</h1>
-                                                <div class="text"><span>December</span> <br>10.00am  - 05.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Madaraka Primary School <br>sports day obstacle race</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>5404, Keri Road</div>
+                                              <h1><?php echo($eventDateArr[2]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[2]); ?></span> <br><?php echo($eventStartTimeArr[2]); ?>  - <?php echo($eventEndTimeArr[2]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[2]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[2]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
+                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -940,141 +854,141 @@
                         <!--Event Tab-->
                         <div class="event-tab" id="event-tab-2">
                             <div class="event-carousel owl-theme owl-carousel owl-dot-style-one owl-nav-none">
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>25</h1>
-                                                <div class="text"><span>August</span> <br>09.00am  - 03.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Donation drive dedicated to <br>school clothing</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>24, Kimathi Avenue</div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                              <h1><?php echo($eventDateArr[0]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[0]); ?></span> <br><?php echo($eventStartTimeArr[0]); ?>  - <?php echo($eventEndTimeArr[0]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[0]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[0]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href=""><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                            <h1><?php echo($eventDateArr[1]); ?></h1>
+                                            <div class="text"><span><?php echo($eventMonthArr[1]); ?></span> <br><?php echo($eventStartTimeArr[1]); ?>  - <?php echo($eventEndTimeArr[1]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href=""><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>16</h1>
-                                                <div class="text"><span>October</span> <br>10.00am  - 05.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">100% primary to secondary school transition goal</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>213, Moi Avenue</div>
+                                        <h4><a href="event-details.html"><?php echo($eventDescriptionArr[1]); ?></a></h4>
+                                        <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[1]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                            <h1><?php echo($eventDateArr[2]); ?></h1>
+                                            <div class="text"><span><?php echo($eventMonthArr[2]); ?></span> <br><?php echo($eventStartTimeArr[2]); ?>  - <?php echo($eventEndTimeArr[2]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>27</h1>
-                                                <div class="text"><span>December</span> <br>09.00am  - 03.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Madaraka Primary School <br>sports day obstacle race</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>5404, Keri Road</div>
+                                        <h4><a href="event-details.html"><?php echo($eventDescriptionArr[2]); ?></a></h4>
+                                        <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[2]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                              <h1><?php echo($eventDateArr[0]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[0]); ?></span> <br><?php echo($eventStartTimeArr[0]); ?>  - <?php echo($eventEndTimeArr[0]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[0]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[0]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href=""><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                            <h1><?php echo($eventDateArr[1]); ?></h1>
+                                            <div class="text"><span><?php echo($eventMonthArr[1]); ?></span> <br><?php echo($eventStartTimeArr[1]); ?>  - <?php echo($eventEndTimeArr[1]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>25</h1>
-                                                <div class="text"><span>August</span> <br>09.00am  - 03.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Donation drive dedicated to <br>school clothing</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>24, Kimathi Avenue</div>
+                                        <h4><a href="event-details.html"><?php echo($eventDescriptionArr[1]); ?></a></h4>
+                                        <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[1]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                            <h1><?php echo($eventDateArr[2]); ?></h1>
+                                            <div class="text"><span><?php echo($eventMonthArr[2]); ?></span> <br><?php echo($eventStartTimeArr[2]); ?>  - <?php echo($eventEndTimeArr[2]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>16</h1>
-                                                <div class="text"><span>October</span> <br>10.00am  - 12.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">100% primary to secondary school transition goal</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>213, Moi Avenue</div>
+                                        <h4><a href="event-details.html"><?php echo($eventDescriptionArr[2]); ?></a></h4>
+                                        <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[2]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                              <h1><?php echo($eventDateArr[0]); ?></h1>
+                                              <div class="text"><span><?php echo($eventMonthArr[0]); ?></span> <br><?php echo($eventStartTimeArr[0]); ?>  - <?php echo($eventEndTimeArr[0]); ?></div>
+                                          </div>
+                                          <h4><a href="event-details.html"><?php echo($eventDescriptionArr[0]); ?></a></h4>
+                                          <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[0]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href=""><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                            <h1><?php echo($eventDateArr[1]); ?></h1>
+                                            <div class="text"><span><?php echo($eventMonthArr[1]); ?></span> <br><?php echo($eventStartTimeArr[1]); ?>  - <?php echo($eventEndTimeArr[1]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>27</h1>
-                                                <div class="text"><span>December</span> <br>10.00am  - 05.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Madaraka Primary School <br>sports day obstacle race</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>5404, Keri Road</div>
+                                        <h4><a href="event-details.html"><?php echo($eventDescriptionArr[1]); ?></a></h4>
+                                        <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[1]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
+                              <!-- Event Blokc One -->
+                              <div class="event-block-one">
+                                  <div class="inner-box">
+                                      <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
+                                      <div class="lower-content">
+                                          <div class="date">
+                                            <h1><?php echo($eventDateArr[2]); ?></h1>
+                                            <div class="text"><span><?php echo($eventMonthArr[2]); ?></span> <br><?php echo($eventStartTimeArr[2]); ?>  - <?php echo($eventEndTimeArr[2]); ?></div>
                                         </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-1.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>25</h1>
-                                                <div class="text"><span>August</span> <br>09.00am  - 03.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Donation drive dedicated to <br>school clothing</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>24, Kimathi Avenue</div>
-                                        </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-2.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>16</h1>
-                                                <div class="text"><span>October</span> <br>10.00am  - 12.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">100% primary to secondary school transition goal</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>213, Moi Avenue</div>
-                                        </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
-                                <!-- Event Blokc One -->
-                                <div class="event-block-one">
-                                    <div class="inner-box">
-                                        <div class="image"><img src="images/resource/event-3.jpg" alt=""></div>
-                                        <div class="lower-content">
-                                            <div class="date">
-                                                <h1>27</h1>
-                                                <div class="text"><span>December</span> <br>10.00am  - 05.00pm</div>
-                                            </div>
-                                            <h4><a href="event-details.html">Madaraka Primary School <br>sports day obstacle race</a></h4>
-                                            <div class="location"><span class="flaticon-point"></span>5404, Keri Road</div>
-                                        </div>
-                                        <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join With Us</a></div>
-                                    </div>
-                                </div>
+                                        <h4><a href="event-details.html"><?php echo($eventDescriptionArr[2]); ?></a></h4>
+                                        <div class="location"><span class="flaticon-point"></span><?php echo($eventLocationArr[2]); ?></div>
+                                      </div>
+                                      <div class="link-btn"><a href="event-details.html"><span class="flaticon-next"></span>Join Us</a></div>
+                                  </div>
+                              </div>
                             </div>
                         </div>
 
@@ -1086,39 +1000,58 @@
     </section>
 
     <!-- Testimonial Section Four -->
+    <?php
+    $sql3="SELECT * FROM tbl_student_testimonial";
+    $testimonialResult = getDataRows($sql3);
+    $testimonialTitleArr = array();
+    $testimonialMessageArr = array();
+    $testimonialStudentNameArr = array();
+    $testimonialSchoolArr = array();
+    $testimonialGradeArr = array();
+    if(!empty($testimonialResult)){
+      foreach($testimonialResult as $testimonial){
+        array_push($testimonialTitleArr, $testimonial["title"]);
+        array_push($testimonialMessageArr, $testimonial["message"]);
+        array_push($testimonialStudentNameArr, $testimonial["studentName"]);
+        array_push($testimonialSchoolArr, $testimonial["school"]);
+        array_push($testimonialGradeArr, $testimonial["grade"]);
+      }
+    }
+    ?>
     <section class="testimonial-section-four">
         <div class="auto-container">
             <div class="sec-title text-center">
                 <h1>Why choose Helping Hands</h1>
-                <div class="text">Please read below to see what a few of our program beneficiaries have to say about us.</div>
+                <div class="text">Here is what a few of our program beneficiaries have to say about us.</div>
             </div>
             <div class="row">
                 <div class="three-item-carousel owl-theme owl-carousel owl-nav-none owl-dot-style-one">
                     <div class="testimonial-block-four">
                         <div class="inner-box">
+                            <!--<div class="image"><img src="images/resource/client-thumb-1.jpg" alt=""></div>-->
                             <div class="image"><img src="images/resource/client-thumb-1.jpg" alt=""></div>
-                            <h4>It’s helped me so much.</h4>
-                            <div class="text">Helping Hands! charities provided the jump <br>start I needed to join high school.</div>
-                            <div class="author-title">Isaac Mwangi</div>
-                            <div class="designation">Form 3 student <a href="#">Molo Academy</a></div>
+                            <h4><?php echo($testimonialTitleArr[0]); ?></h4>
+                            <div class="text"><?php echo($testimonialMessageArr[0]); ?></div>
+                            <div class="author-title"><?php echo($testimonialStudentNameArr[0]); ?></div>
+                            <div class="designation"><?php echo($testimonialGradeArr[0]); ?><a href="#"><?php echo($testimonialSchoolArr[0]); ?></a></div>
                         </div>
                     </div>
                     <div class="testimonial-block-four">
                         <div class="inner-box">
                             <div class="image"><img src="images/resource/client-thumb-2.jpg" alt=""></div>
-                            <h4>Thank you for your support.</h4>
-                            <div class="text">Thank you so much for making it possible <br>for me to join high school. I am very happy <br>to be a part of your program.</div>
-                            <div class="author-title">Lucas Wahome</div>
-                            <div class="designation">Form 1 student  <a href="#">Agoro Sare High School</a></div>
+                            <h4><?php echo($testimonialTitleArr[1]); ?></h4>
+                            <div class="text"><?php echo($testimonialMessageArr[1]); ?></div>
+                            <div class="author-title"><?php echo($testimonialStudentNameArr[1]); ?></div>
+                            <div class="designation"><?php echo($testimonialGradeArr[1]); ?><a href="#"><?php echo($testimonialSchoolArr[1]); ?></a></div>
                         </div>
                     </div>
                     <div class="testimonial-block-four">
                         <div class="inner-box">
                             <div class="image"><img src="images/resource/client-thumb-3.jpg" alt=""></div>
-                            <h4>Positive experience.</h4>
-                            <div class="text">I am excited to be joining <br>Nanyuki girls' School next year and it is all <br>thanks to your donations</div>
-                            <div class="author-title">Betty Zawadi</div>
-                            <div class="designation">Class 8 student <a href="#">Madaraka Primary School</a></div>
+                            <h4><?php echo($testimonialTitleArr[2]); ?></h4>
+                            <div class="text"><?php echo($testimonialMessageArr[2]); ?></div>
+                            <div class="author-title"><?php echo($testimonialStudentNameArr[2]); ?></div>
+                            <div class="designation"><?php echo($testimonialGradeArr[2]); ?><a href="#"><?php echo($testimonialSchoolArr[2]); ?></a></div>
                         </div>
                     </div>
                 </div>
@@ -1127,27 +1060,39 @@
     </section>
 
     <!-- Team Section -->
+    <?php
+    $sql4="SELECT * FROM tbl_team_member";
+    $teamResult = getDataRows($sql4);
+    $teamNameArr = array();
+    $teamPositionArr = array();
+    if(!empty($teamResult)){
+      foreach($teamResult as $team){
+        array_push($teamNameArr, $team["name"]);
+        array_push($teamPositionArr, $team["position"]);
+      }
+    }
+    ?>
     <section class="team-section">
         <div class="auto-container">
             <div class="row m-0 justify-content-md-between align-items-end">
                 <div class="sec-title light">
                     <h1>Team behind Helping Hands</h1>
-                    <div class="text">Our work would not be possible without the work of our dedicated volunteers.</div>
+                    <div class="text">Our work would not be possible without the work of our dedicated team.</div>
                 </div>
                 <!--Link Btn-->
-                <div class="link-btn mb-50">
+                <!--<div class="link-btn mb-50">
                     <a href="#" class="theme-btn btn-style-one"><span>Meet All Members</span></a>
-                </div>
+                </div>-->
             </div>
             <div class="wrapper-box">
                 <div class="row">
                     <!-- Team Blokc One -->
                     <div class="col-lg-4 team-block-one">
                         <div class="inner-box wow fadeInDown" data-wow-delay="200ms">
-                            <div class="image"><a href="#"><img src="images/resource/team-1.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4> <a href="#">Cindy Bosibori</a></h4>
-                                <div class="designation">Co-Founder</div>
+                                <h4> <a href="#"><?php echo($teamNameArr[0]); ?></a></h4>
+                                <div class="designation"><?php echo($teamPositionArr[0]); ?></div>
                             </div>
                             <ul class="social-icon-two">
                                 <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -1160,10 +1105,10 @@
                     <!-- Team Blokc One -->
                     <div class="col-lg-4 team-block-one">
                         <div class="inner-box wow fadeInUp" data-wow-delay="400ms">
-                            <div class="image"><a href="#"><img src="images/resource/team-2.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4> <a href="#">Calvin Sendawula</a></h4>
-                                <div class="designation">Co-Founder</div>
+                                <h4> <a href="#"><?php echo($teamNameArr[1]); ?></a></h4>
+                                <div class="designation"><?php echo($teamPositionArr[1]); ?></div>
                             </div>
                             <ul class="social-icon-two">
                                 <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -1176,10 +1121,10 @@
                     <!-- Team Blokc One -->
                     <div class="col-lg-4 team-block-one">
                         <div class="inner-box wow fadeInDown" data-wow-delay="200ms">
-                            <div class="image"><a href="#"><img src="images/resource/team-3.jpg" alt=""></a></div>
+                            <div class="image"><a href="#"><img src="images/resource/cause-2.jpg" alt=""></a></div>
                             <div class="lower-content">
-                                <h4> <a href="#">Ruth Githinji</a></h4>
-                                <div class="designation">Ground Person</div>
+                                <h4> <a href="#"><?php echo($teamNameArr[2]); ?></a></h4>
+                                <div class="designation"><?php echo($teamPositionArr[2]); ?></div>
                             </div>
                             <ul class="social-icon-two">
                                 <li><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -1195,11 +1140,11 @@
     </section>
 
     <!-- Volunteer -->
-    <section class="volunteer-section">
+    <section class="volunteer-section" id="signUpSponsorAChild">
         <div class="auto-container">
             <div class="sec-title text-center">
                 <h1>Become a sponsor</h1>
-                <div class="text">Please read below to see what a few of our charity partners have to say about us.</div>
+                <div class="text">Sign up with us below to join our Sponsor-A-Child program.</div>
             </div>
             <div class="row">
                 <div class="col-lg-3">
@@ -1232,33 +1177,34 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="default-form-area wow fadeInUp" data-wow-delay="200ms">
-                        <form id="contact-form" name="contact_form" class="contact-form" action="inc/sendmail.php" method="post">
+                        <!--<form id="contact-form" name="contact_form" class="contact-form" action="inc/sendmail.php" method="post">-->
+                        <form id="contact-form" name="contact_form" class="contact-form" action="PHP/processSponsor.php" method="post">
                             <div class="row clearfix">
                                 <div class="col-lg-6 col-md-6 column">
                                     <div class="form-group">
-                                        <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name*" required="">
+                                        <input type="text" name="form_name" class="form-control" value="" placeholder="Your Full Name*" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 column">
                                     <div class="form-group">
-                                        <select class="filters-selec form-controlt selectmenu" name="form_gender">
+                                        <select class="filters-selec form-controlt selectmenu" name="form_gender" required>
                                             <option value="*">Gender*</option>
-                                            <option value=".category-1">Male</option>
-                                            <option value=".category-2">Female</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 column">
                                     <div class="form-group">
-                                        <input type="email" name="form_email" class="form-control required email" value="" placeholder="Email*" required="">
+                                        <input type="email" name="form_email" class="form-control required email" value="" placeholder="Email*" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 column">
                                     <div class="form-group">
-                                        <select class="filters-selec form-controlt selectmenu" name="form_subject">
-                                            <option value="*">How did you here about us</option>
-                                            <option value=".category-1">Social media</option>
-                                            <option value=".category-2">Other means</option>
+                                        <select class="filters-selec form-controlt selectmenu" name="form_subject" required>
+                                            <option value="*">How did you hear about us</option>
+                                            <option value="Social media">Social media</option>
+                                            <option value="Other means">Other means</option>
                                         </select>
                                     </div>
                                 </div>
@@ -1272,11 +1218,11 @@
                                 <div class="row m-0 justify-content-md-between align-items-end">
                                     <div class="form-group">
                                         <label for="exampleFormControlFile1">ID UPLOAD</label><a href="#">&emsp;(Click here to find out why we need your National ID)</a>
-                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        <input type="file" name="form_natID" class="form-control-file" id="exampleFormControlFile1" required>
                                     </div>
                                     <div class="form-group">
                                         <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                        <button class="theme-btn btn-style-one" type="submit" data-loading-text="Please wait..."><span>Send Message</span></button>
+                                        <button class="theme-btn btn-style-one" type="submit" data-loading-text="Please wait..."><span>Sign up</span></button>
                                     </div>
                                 </div>
 
@@ -1284,35 +1230,6 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section class="blog-section">
-        <div class="auto-container">
-            <div class="row m-0 justify-content-md-between align-items-end">
-                <div class="sec-title">
-                    <h1>Team behind Helping Hands</h1>
-                    <div class="text">Our work would not be possible without the work of our dedicated volunteers.</div>
-                </div>
-                <!--Link Btn-->
-                <div class="link-btn mb-50">
-                    <a href="#" class="theme-btn btn-style-one"><span>Meet All Members</span></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Client section -->
-    <section class="client-section">
-        <div class="auto-container">
-            <div class="sponsors-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
-                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img src="images/clients/client-1.png" alt=""></a></div>
-                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img src="images/clients/client-2.png" alt=""></a></div>
-                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img src="images/clients/client-3.png" alt=""></a></div>
-                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img src="images/clients/client-4.png" alt=""></a></div>
-                <div class="image" data-toggle="tooltip" data-placement="top" title="media partner"><a href="#"><img src="images/clients/client-5.png" alt=""></a></div>
             </div>
         </div>
     </section>
@@ -1327,9 +1244,9 @@
                         <h4 class="widget-title">Contact</h4>
                         <ul>
                             <li>1273 Ole Sangale Road, <br> Madaraka, <br>Nairobi, Kenya.</li>
-                            <li><a href="mailto:support@helpinghands.com">supportyou@helpinghands.com </a></li>
+                            <li><a href="mailto:helpinghandsfoundationkenya@gmail.com">support@helpinghands.com </a></li>
                         </ul>
-                        <h3><a href="tel:+254456789">+254 456 789</a></h3>
+                        <h3><a href="tel:+254123456789">+254 123 456 789</a></h3>
                     </div>
                     <!-- About Widget -->
                     <div class="col-lg-3 col-md-6 about-widget footer-widget">
@@ -1358,7 +1275,7 @@
                         <h4 class="widget-title">Newsletter</h4>
                         <div class="text">Subscribe to us and get latest news & <br>upcoming events.</div>
                         <form action="#">
-                            <input type="email" placeholder="Emial Address...">
+                            <input type="email" placeholder="Email Address...">
                             <button class="submin-btn"><span class="flaticon-next"></span>Subscribe to Us</button>
                         </form>
                     </div>
@@ -1367,7 +1284,7 @@
             <div class="footer-bottom">
                 <div class="left-content">
                     <div class="icon"><img src="images/resource/logo-icon.png" alt=""></div>
-                    <div class="copyright-text">© 2021-2022 All Rights Reserved by <a href="#">Helping Hands.</a> <br>Designed By <a href="#">Helping Hands.</a></div>
+                    <div class="copyright-text">© 2021-2022 All Rights Reserved by <a href="#">Helping Hands.</a> <br>Designed By <a href="#">Helping Hands.</a> Images courtesy of Madaraka Primary School.</div>
                 </div>
                 <div class="right-content">
                     <ul class="social-icon-three">
@@ -1392,73 +1309,52 @@
             <div class="donate-form-wrapper">
                 <div class="close-donate theme-btn"><span class="flaticon-close"></span></div>
                 <div class="sec-title text-center">
-                    <h1>Donate and help us to achive our goal</h1>
-                    <!-- <div class="text">Beguiled and demoralized by the charms of pleasure of the moment, so by desire, <br>that they cannot foresee.</div> -->
+                    <h1>Make a donation</h1>
                 </div>
 
-                <form  action="#" class="donate-form default-form">
-                    <ul class="chicklet-list clearfix">
-                        <li>
-                            <input type="radio" id="donate-amount-1" name="donate-amount" />
-                            <label for="donate-amount-1" data-amount="10" >$10</label>
-                        </li>
-                        <li>
-                            <input type="radio" id="donate-amount-2" name="donate-amount" checked="checked" />
-                            <label for="donate-amount-2" data-amount="20">$20</label>
-                        </li>
-                        <li>
-                            <input type="radio" id="donate-amount-3" name="donate-amount" />
-                            <label for="donate-amount-3" data-amount="50">$50</label>
-                        </li>
-                        <li>
-                            <input type="radio" id="donate-amount-4" name="donate-amount" />
-                            <label for="donate-amount-4" data-amount="100">$100</label>
-                        </li>
-                        <li class="other-amount">
-                            <div class="input-container" data-message="Every dollar you donate helps end hunger."><input type="text" id="other-amount" placeholder="Other Amount"  />
-                            </div>
-                        </li>
-                    </ul>
-
-                    <h3>Donor Information</h3>
+                <form  action="PHP/processDonor.php" class="donate-form default-form" method="post">
+                    <h3>Donor Information (Optional)</h3>
 
                     <div class="contact-form">
                         <div class="row clearfix">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-group">
-                                    <input type="text" name="fname" placeholder="Full Name">
+                                    <input type="text" name="donorName" placeholder="Full Name (John Doe)" required>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-group">
-                                    <input type="text" name="fname" placeholder="Email Address">
+                                    <input type="email" name="donorEmail" placeholder="Email Address (johnDoe@gmail.com)" required>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-group">
-                                    <input type="text" name="fname" placeholder="Contact">
+                                    <input type="text" name="donorContact" maxlength="13" placeholder="Contact (+254 ___ ___ ___)" required>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-group">
-                                    <select class="filters-selec form-controlt selectmenu" name="form_subject">
-                                        <option value="*">Payment Via</option>
-                                        <option value=".category-1">MPESA</option>
-                                        <option value=".category-2">Card</option>
-                                        <option value=".category-2">Bank Transfer</option>
-                                        <option value=".category-2">Other</option>
+                                    <select class="filters-selec form-controlt selectmenu" name="donorPaymentMethod" required>
+                                        <option value="PayPal">PayPal</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="form-group d-flex align-items-center justify-content-between">
-                                    <button class="theme-btn btn-style-one" type="submit"><span>Donate Now</span></button>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox">
-                                            <span>I would like to donate automatically repeat each month</span>
-                                        </label>
-                                    </div>
+                                    <button class="theme-btn btn-style-one" type="submit"><span>Submit Details</span></button>
+                                    <div id="donate-button"></div>
+                                    <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                                    <script>
+                                      PayPal.Donation.Button({
+                                      env:'production',
+                                      hosted_button_id:'AVKSV62VVLVTW',
+                                      image: {
+                                      src:'https://pics.paypal.com/00/s/ZmYwN2M1YTItNTQ5OS00NWI1LWE1OGYtMTQwNjc0MzQxNzAw/file.PNG',
+                                      alt:'Donate with PayPal button',
+                                      title:'PayPal - The safer, easier way to pay online!',
+                                      }
+                                      }).render('#donate-button');
+                                    </script>
                                 </div>
                             </div>
 

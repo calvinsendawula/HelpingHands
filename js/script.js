@@ -13,7 +13,7 @@
 		});
 	}
 
-	//Update Header Style and Scroll to Top 
+	//Update Header Style and Scroll to Top
 	function headerStyle() {
 		if ($('.main-header').length) {
 			var windowpos = $(window).scrollTop();
@@ -463,7 +463,7 @@
 					easing: 'linear'
 				}
 			});
-			// Isotope Filter 
+			// Isotope Filter
 			$filter.find('li').on('click', function() {
 				var selector = $(this).attr('data-filter');
 				try {
@@ -949,7 +949,7 @@
 		})
 	}
 
-	//Jquery Knob animation 
+	//Jquery Knob animation
 	if ($('.dial').length) {
 		$('.dial').appear(function() {
 			var elm = $(this);
@@ -1050,5 +1050,5 @@
 		handlePreloader();
 		windwLoad();
 	});
-	
+
 })(window.jQuery);
